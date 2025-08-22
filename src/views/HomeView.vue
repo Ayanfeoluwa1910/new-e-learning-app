@@ -1,9 +1,12 @@
 <template>
   <div>
-    <h1>Home Page</h1>
+    <CourseSection/>
+    
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import CourseSection from '@/components/section-folder/CourseSection.vue';
+</script>
 
 <style lang="scss" scoped></style>
